@@ -1,0 +1,198 @@
+
+.section{
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.img-bg{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+
+.container{
+  margin: 0 auto;
+  max-width: 1360px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.section-header{
+  height: 130px;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  color: black;
+}
+.section-header h1{
+  font-size: 80px;
+  margin: 0;
+  margin-bottom: 14px; 
+}
+.section-main{
+  margin-top: 100px; 
+  height: 500px;
+}
+.main-blocks{
+  display: flex;
+  justify-content: space-around;
+}
+.temp-sorry{
+  margin-top: 50px;
+  height: 100px;
+}
+.block-of-about{
+  width: 350px;
+  height: 130px;
+  background-color: #282c34;
+  border: 4px solid black;
+  display: flex;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.block-of-about p{
+  margin: 0 auto;
+  margin-top: 7px; 
+  font-size: 80px;
+  font-weight: 680;
+  color: black;
+}
+.link-route{
+  text-decoration: none;
+}
+.block-of-about:hover{
+  transition: 0.3s;
+  box-shadow: 0 5px 26px 6px rgba(0, 0, 0, 0.49);
+}
+.two-side-blocks{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; 
+}
+.section-end-about{
+  height: 200px;
+  background-color: #282c34;
+  border: 4px solid black;
+  color: black;
+}
+.section-end-about h2{
+  font-size: 80px;
+  font-weight: 680;
+}
+.Color-Container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 200px;
+}
+.block{
+  height: 100px;
+  cursor: pointer;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.black{
+  background-color: black;
+}
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.TextWithColor{
+  font-size: 30px;
+  font-weight: 400;
+}
+.redding{
+  color:red;
+}
+.bluening{
+  color:blue;
+}
+.blacking{
+  color:black;
+}
+.greening{
+  color:green;
+}
+.yellowning{
+  color: yellow;
+}
+.Attemps{
+  font-size: 50px;
+  font-weight: 400;
+  left: 400px;
+  top: 70px;
+  position: absolute;
+  z-index: 2;
+  width: 400px;
+  height: 70px;
+  display: flex;
+  background-color: gray;
+  border: 3px solid black;
+}
+.attemps-item{
+  margin-left: 40px;
+}
+.MOREEE{
+  font-size: 70px;
+}
+.logs{
+  position: absolute;
+  width: 400px;
+  height: auto;
+  border: 3px solid black;
+  left: 400px;
+  top: 140px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.absolute{
+  position: relative;
+}
+.section-login{
+  display: flex;
+  justify-content: center;
+}
+.input{
+  width: 500px;
+  height: 60px;
+  font-size: 55px;
+  margin-top: 50px; 
+  background-color: #282c34;
+  border: 4px solid black;
+  color: black;
+}
+.input-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-form{
+  width: 500px;
+  height: 65px;
+  font-size: 30px;
+  background-color: #282c34;
+  border: 4px solid black;
+  margin-top: 50px; 
+}
+.Accept-bar{
+  width: 500px;
+  height: 65px;
+  background-color: #282c34;
+  border: 4px solid black;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
